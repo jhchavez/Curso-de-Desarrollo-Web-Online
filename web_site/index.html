@@ -3,24 +3,24 @@
     <head>
         <meta charset="UTF-8"/>
         <title>Jhon Chavez</title>
-        <link rel="icon" type="image/png" href="../Curso-de-Desarrollo-Web-Online/assets/image/logo.png"/>
+        <link rel="icon" type="image/png" href="./web_site/assets/image/logo.png"/>
     </head>
     <body>
         <header>
         <div>
             <figure>
-                <img src="../Curso-de-Desarrollo-Web-Online/assets/image/logo.png" alt="Logo de http://jhonchavez.com">
+                <img src="./assets/image/logo.png" alt="Logo de http://jhonchavez.com">
             </figure>
             <nav>
                 <ol>
                     <li>
-                        <a href="#">Portafolio</a> <!-- ancla -->
+                        <a href="#portafolio">Portafolio</a> <!-- ancla -->
                     </li>
                     <li>
-                        <a href="#">Experiencia</a> <!-- ancla -->
+                        <a href="#eventos">Experiencia</a> <!-- ancla -->
                     </li>
                     <li>
-                        <a href="#">Trabajemos juntos</a> <!-- ancla -->
+                        <a href="#contacto">Trabajemos juntos</a> <!-- ancla -->
                     </li>
                 </ol>
             </nav>
@@ -30,9 +30,9 @@
             <h1>
                 Hola soy <strong>Jhon Chavez</strong><br/> Estudiante de Ingenieria de Sistemas <br/><strong>con amor por la Programacion.</strong>
             </h1>
-            <img src="../Curso-de-Desarrollo-Web-Online/assets/image/hero.JPG" width="500px" height="300px" alt="Imagen principal del sitio"> <!--imagen de portada-->
+            <img src="./assets/image/hero.JPG" width="500px" height="300px" alt="Imagen principal del sitio"> <!--imagen de portada-->
         </section>
-        <section>
+        <section id="portafolio">
             <h2>Portafolio (Proyectos Destacados)</h2>
             <article>
                 <h3>Platzi Video</h3>
@@ -43,7 +43,7 @@
                 <img width="500px" src="XXXXXXXXX" alt="XXXXXXXXX"> 
             </article>
         </section>
-        <section>
+        <section id="eventos">
             <h2>Mas sobre mi experiencia</h2>
             <article>
                 <figure>
@@ -51,10 +51,10 @@
                 </figure>
                 <h3>PlatziConf Mexico 2018</h3>
                 <p>Un gran evento*********</p>
-                <a>Ver Platica</a>
+                <a href="https://www.youtube.com/watch?v=rbuYtrNUxg4" target="_blank">Ver Platica</a> <!--blank para abrir en pagina nueva-->
             </article>
         </section>
-        <section>
+        <section id="contacto">
             <form action="/suscripcion/">
                 <h3>Participa!!!</h3>
                 <input type="text" placeholder="Déjame tu email" id="email">
