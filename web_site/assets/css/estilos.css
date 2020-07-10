@@ -24,6 +24,11 @@ las propiedades se separan de los valores con : y
 los valores se separan de otras propiedades con ; con un selector
 pasan a formar una regla de CSS*/
 
+/* gris oscuro = #1d252c */
+/* gris claro =  #626262 */
+/* background gris = #1b2127 */
+/* celeste = #026fff */
+
 body {
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -38,12 +43,21 @@ h1 {
     font-size: 40px;
     line-height: 1.5em;
     letter-spacing: -.2px;
+    color: white;
     /* text-transform: uppercase; */
     /* text-decoration: dashed; */
+}
+h1 strong {
+    color: #026fff;
 }
 
 .hero {
     height: 300px;
+    background-image: url(../image/hero.jpeg);
+    background-color: #1b2127;
+    background-size: 500px 300px;
+    background-repeat: no-repeat;
+    background-position-x: right;
 }
 
 .project-details {
@@ -52,4 +66,12 @@ h1 {
 
 .project-imageContainer {
     width: 500px;
+}
+.header {
+    background-color: #1b2127;
+    color: white;
+}
+.header a {
+    color: white;
+    text-decoration: none;
 }
