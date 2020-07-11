@@ -31,6 +31,7 @@ pasan a formar una regla de CSS*/
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -61,6 +62,10 @@ h1 strong {
     background-position-x: right;
 }
 
+.portfolio {
+    background: #fafafa;
+}
+
 .project {
     /* border-top: 10px solid red;
     border-right: 10px solid green;
@@ -76,10 +81,13 @@ h1 strong {
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-left-radius: 10px;*/
+    margin: 10px;
     margin-bottom: 15px;
     /* margin-right: 0%;
     margin-left: ;
     margin-top: ; */
+    padding: 20px;
+    background: white;
 } 
 
 .project-details {
