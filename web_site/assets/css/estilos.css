@@ -176,6 +176,11 @@ h2 {
     width: 500px;
 }
 
+.project-imageContainer {
+    width: 500px;
+}
+
+
 .project-courses{
     border: 1px solid gray;
     border-radius: 10px;
@@ -212,10 +217,6 @@ h2 {
 }
 
 .project-detailsCourses {
-    width: 500px;
-}
-
-.project-imageContainer {
     width: 500px;
 }
 
