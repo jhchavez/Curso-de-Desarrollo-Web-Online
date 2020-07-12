@@ -172,29 +172,72 @@ h2 {
     margin-bottom: 10px;
 }
 
+.project-details {
+    width: 500px;
+}
+
 .project-courses{
     border: 1px solid gray;
     border-radius: 10px;
-    margin: 10px;
+    /* margin: 10px; */
     margin-bottom: 15px;
     padding: 20px;
     background: white;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
 }
 
-.project-details {
-    width: 500px;
+.project-courses,
+.project-urlCourses {
+    margin: 10px 0;
+}
+
+.project-descriptionCourses {
+    font-size: 20px;
+}
+
+.project-courses strong {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+/* .project-date {
+    margin: 10px 0;
+} */
+
+.project-titleCourses {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 .project-detailsCourses {
     width: 500px;
 }
 
-.project-imageContainer {
+/* .project-imageContainer {
     width: 500px;
 }
 
 .project-imageContainerProfile {
     width: 500px;
+} */
+
+.events {
+    background: #fafafa;
+    padding: 20px;
+}
+
+.event {
+    border: 1px solid gray;
+    border-radius: 10px;
+    /* margin: 10px; */
+    margin-bottom: 15px;
+    padding: 20px;
+    background: white;
+    display: flex;
+    align-items: center; 
+    /* justify-content: space-between;  */
 }
 
 .footer {
