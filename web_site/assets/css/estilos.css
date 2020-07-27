@@ -76,7 +76,7 @@ background-color: #1b2127;
 display: flex;
 align-items: center;
 justify-content: space-between;
-
+flex-wrap: wrap;
 }
 
 .hero-image{
@@ -115,6 +115,7 @@ background: white;
 display: flex;
 align-items: center;
 justify-content: space-between;
+flex-wrap: wrap;
 }
 .project-course,
 .project-date,
@@ -153,6 +154,7 @@ display: flex;
 height: 70px;
 align-items: center;
 justify-content: space-between;
+flex-wrap: wrap;
 }
 
 ol,
@@ -209,6 +211,7 @@ background-color: #1b2127;
 display: flex;
 align-items: center;
 justify-content: space-between;
+flex-wrap: wrap;
 }
 
 .footer img {
@@ -266,6 +269,7 @@ height: 150px;
 display: flex;
 align-items: center;
 justify-content: space-between;
+flex-wrap: wrap;
 }
 
 .social {
@@ -321,7 +325,7 @@ font-family: 'Source Sans Pro', sans-serif;
 
 .container {
 /* border: 1px solid red; */
-width: 1000px;
+max-width: 1000px;
 margin: 0 auto;
 display: inherit;
 justify-content: inherit;
@@ -338,7 +342,7 @@ flex-wrap: inherit;
 
 @media screen and (max-width: 768px) {
     body {
-        border: 10px solid green;
+        /* border: 10px solid green; */
     }
 }
 
